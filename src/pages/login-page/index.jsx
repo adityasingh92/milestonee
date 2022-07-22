@@ -1,10 +1,19 @@
 import React, { Fragment } from 'react';
 
-const LoginPage = () => {
+import styles from './styles.module.css';
+
+const LoginPage = props => {
     return (
         <Fragment>
-            <div>
-                Login Page
+            <div className={styles.container}>
+                <div className={styles.loginContainer}>
+                    <div>Milestone</div>
+                    <form>
+                        <label>Enter email</label>
+                        <input type="text" placeholder='eg: example@xyz.com'/>
+                    </form>
+                    <button>Next</button>
+                </div>
             </div>
         </Fragment>
     );
