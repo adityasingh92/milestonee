@@ -41,8 +41,8 @@
 }
 
 .loginContainer button {
+    width: 7rem;
     height: 3rem;
-    margin-left: 65%;
     margin-right: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -60,6 +60,20 @@
     border-radius: 10px;
     border: 2px solid black;
     font-family: 'Comfortaa', cursive;
+}
+
+.passwordButtonGroups {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 13%;
+}
+
+
+.backbutton:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1200px){
